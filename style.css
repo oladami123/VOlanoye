@@ -1,0 +1,217 @@
+body{
+    /* font-family: "Raleway",sans-serif;  */
+}
+
+header{
+    background-image: url('https://i.ibb.co/ZM5Qzcm/jumbotron-image.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+  
+.top-nav{
+    background-color: #262626;
+    padding-top: 5px;
+    width: 100%;
+    height: 9vh;
+}
+
+.top-nav .col-auto{
+    font-size: 25px;
+    color: white;
+}
+
+.top-nav .col-auto span{
+    color: green;
+    font-weight: 100;
+}
+
+.top-nav .row button{
+    background-color: #6f9a37;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 100;
+    box-shadow: 0 2px 0 #6f9a37;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.top-nav .row button:hover{
+    background-color: #496723;
+    transition: 1s;
+}
+
+
+.navbar .nav{
+    font-size: 16px;
+    color: #fff;
+}
+
+
+.navbar .nav-link{
+    color: #c6bcbc;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.navbar .nav-link:hover{
+    color: #fff;
+}
+
+.topping h1{
+    letter-spacing: 10px;
+    font-weight: lighter;
+    color: #fff;
+    margin-bottom: 16px;
+    font-size: 2.2rem;
+}
+
+.topping p{
+    letter-spacing: 6px;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-size: 14px;
+    font-weight: lighter;
+
+}
+
+ .topping .btn{
+    width: 400;
+    line-height: 1.2;
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff;
+    border-radius: 0;
+    font-size: 10px;
+    align-items: center;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+}
+
+.about{
+    background-color: rgb(245, 245, 245);
+    height: 70vh;
+}
+
+.about h1{
+    margin-top: 60px;
+    font-size: 30px;
+}
+.about a{
+    color: rgba(38, 38, 38, 0.626);
+}
+
+.about .row1{
+    text-align: center !important;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-top: 60px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Raleway, sans-serif;
+    margin-bottom: 100px;
+}
+
+.about .row1 .p2{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.services{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 9rem;
+}
+
+.services h1{
+    padding-top: 120px;
+    font-size: 35px;
+}
+
+.services .row2{
+    padding-top: 15rem;
+}
+
+.services .row2 h3{
+    padding-bottom: 30px;
+    font-weight: lighter;
+    font-size: 20px;
+    letter-spacing: 6px;
+}
+
+.services .row2 p{
+    text-align: center;
+    color: #496723;
+    margin-right: 20%;
+}
+
+.services .row3{
+    padding-top: 15rem;
+}
+
+.services .row3 h3{
+    padding-bottom: 30px;
+    font-weight: lighter;
+    font-size: 20px;
+    letter-spacing: 6px;
+}
+
+.services .row3 p{
+    text-align: center;
+    color: #496723;
+    margin-right: 20%;
+}
+
+.portfolio{
+    background-color: rgb(245, 245, 245);
+    height: 100%;
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.portfolio h1{
+    font-size: 28px;
+    letter-spacing: 3px;
+    padding-bottom: 4rem;
+}
+
+.bin{
+    font-size: 12px;
+    margin-top: 7%;
+    width: 130px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    letter-spacing: 3px;
+    font-weight: lighter;
+}
+
+.bin:hover{
+    background-color: #000000;
+    color: #fff;
+}
+
+.carousel{
+    height: 100vh;
+    background-image: url('https://i.ibb.co/ZM5Qzcm/jumbotron-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} 
+
+.blog .card{
+    text-decoration: none;
+}
+
+.blog .card .card-title h5{
+    font-weight: 700;
+}
+
+.blog .card .card-text p{
+    opacity: 0.6;
+}
